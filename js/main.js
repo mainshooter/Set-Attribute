@@ -550,14 +550,7 @@ function select(element) {
   return(document.querySelector(element));
 }
 
-/**
- * Selects all element that will it will find
- * @param  {[string]} elements [The selector for all the elements]
- * @return {[array]}          [All the elements that have been found]
- */
-function selectAll(elements) {
-  return(document.querySelectorAll(elements));
-}
+
 
 var keyCodes = {
   3 : "break",
